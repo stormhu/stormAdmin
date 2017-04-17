@@ -15,7 +15,7 @@ return [
     // +----------------------------------------------------------------------
 
     // 应用命名空间
-    'app_namespace'          => 'app',
+    'app_namespace'          => 'index',
     // 应用调试模式
     'app_debug'              => true,
     // 应用Trace
@@ -123,7 +123,7 @@ return [
         // 模板引擎类型 支持 php think 支持扩展
         'type'         => 'Think',
         // 模板路径
-        'view_path'    => '',
+        'view_path'    => APP_PATH.'/tpl/',
         // 模板后缀
         'view_suffix'  => 'html',
         // 模板文件名分隔符
